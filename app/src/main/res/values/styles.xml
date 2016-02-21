@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <!--
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabStyle</item>
+        <item name="actionBarTabStyle">@style/MyActionBarTabStyle</item>
+        -->
+        <!--
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        -->
+    </style>
+
+    <!-- style for the tabs -->
+    <style name="MyActionBarTabStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@android:drawable/status_bar_item_app_background</item>
+    </style>
+
+</resources>

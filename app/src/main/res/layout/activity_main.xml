@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.test.dan.myactionbar.MainActivity"
+    >
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/scan_device"
+            android:textSize="20sp"
+            android:background="#ff57b6ff"
+            android:id="@+id/bt_scan"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:smoothScrollbar="true"
+        android:dividerHeight="3dp"
+
+        android:divider="#ff57b6ff"
+        android:id="@+id/listView1"
+        >
+    </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BT Receiver</string>
+    <string name="seekerTitle">Device Seeker</string>
+    <string name="main_interface">Control Panel</string>
+    <string name="history_data_showing_title">历史数据显示</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="section1_name">历史数据</string>
+    <string name="section2_name">实时数据</string>
+    <string name="section3_name">用户信息</string>
+    <string name="scan_device">扫描设备</string>
+    <string name="query_history_data">查询历史数据</string>
+    <string name="query_real_time_data">查询实时数据</string>
+    <string name="frag2_voltage">实时电压：</string>
+    <string name="frag2_voltage_value">220 V.AC</string>
+    <string name="frag2_current">实时漏电：</string>
+    <string name="frag2_current_value">0 mA</string>
+
+    <string name="about_us">本APP是家用独立式漏电采集器的配用APP，用户可以通过APP查询采集器的历史数据和实时数据查询
+    </string>
+    <string name="id_text">用户ID:</string>
+    <string name="username_text">用户姓名:</string>
+    <string name="register_text">注册用户</string>
+    <string name="view_user_text">查看所有用户</string>
+</resources>

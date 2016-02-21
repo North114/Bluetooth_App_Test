@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.test.dan.myactionbar.MyFragment3">
+
+    <!--
+    <TextView
+        android:id="@+id/frag3TextView"
+        android:text="@string/about_us"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"/>
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffccfcff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material">
+        <TextView
+            android:text="@string/id_text"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="8"
+            android:textSize="@dimen/edit_text_size"
+            android:id="@+id/frag3_userID"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material">
+
+        <TextView
+            android:text="@string/username_text"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:textSize="@dimen/edit_text_size"
+            android:id="@+id/frag3_userName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/frag3_regist_user"
+        android:text="@string/register_text"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#ff57b6ff"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:paddingLeft="@dimen/abc_action_bar_content_inset_material"
+        android:paddingRight="@dimen/abc_action_bar_content_inset_material"
+        android:layout_gravity="center"/>
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/frag3_view_user"
+            android:text="@string/view_user_text"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#ff57b6ff"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:paddingLeft="@dimen/abc_action_bar_content_inset_material"
+            android:paddingRight="@dimen/abc_action_bar_content_inset_material"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/view_user_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>
+

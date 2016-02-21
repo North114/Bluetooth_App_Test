@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="62dp"
+    android:orientation="horizontal"
+    android:background="#ffd8ffb4"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/user_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/abc_action_bar_content_inset_material"
+        android:gravity="center"
+        android:text="伍丹"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/voltage_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+                android:gravity="center"
+                android:text="232 V"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/current_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+                android:gravity="center"
+                android:text="31 mA"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:orientation="horizontal"
+            android:layout_weight="@integer/abc_config_activityDefaultDur">
+
+            <ImageView
+                android:id="@+id/date_image"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+                android:background="@drawable/ic_action_calendar_day"/>
+
+            <TextView
+                android:id="@+id/date_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="2016-12-01"
+                android:textSize="14sp"
+                />
+
+            <ImageView
+                android:id="@+id/time_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+                android:background="@drawable/ic_action_clock"/>
+
+            <TextView
+                android:id="@+id/time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="09:03:10"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

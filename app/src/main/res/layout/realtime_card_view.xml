@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="62dp"
+    android:orientation="horizontal"
+    android:background="#ffd8ffb4"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/realtime_user_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/abc_action_bar_content_inset_material"
+        android:gravity="center"
+        android:text="伍丹"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/realtime_voltage_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+        android:gravity="center"
+        android:text="232 V"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/realtime_current_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+        android:gravity="center"
+        android:text="31 mA"
+        android:textSize="30sp"
+        />
+
+</LinearLayout>
